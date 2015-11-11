@@ -14,6 +14,7 @@ RUN mkdir -p ${ORIENTDB_HOME} \
     && tar -zxvf /tmp/orientdb.tar.gz --strip-components=1 --directory ${ORIENTDB_HOME} \
     && ln -s ${ORIENTDB_HOME}/bin/* /usr/local/bin/ \
     && rm -rf /tmp/ \
+    && rm -rf ${ORIENTDB_HOME}/databases/ \
     && mkdir /usr/local/log
 
 WORKDIR ${ORIENTDB_HOME}
