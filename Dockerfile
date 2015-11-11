@@ -16,11 +16,12 @@ RUN mkdir -p ${ORIENTDB_HOME} \
     && rm -rf /tmp/ \
     && mkdir /usr/local/log
 
-WORKDIR ${ORIENTDB_URL}
+WORKDIR ${ORIENTDB_HOME}
 
-VOLUME ${ORIENTDB_URL}/databases/
+VOLUME ${ORIENTDB_HOME}/databases/
 
 # configure system
 EXPOSE 2424
 EXPOSE 2480
+
 CMD ["/usr/local/bin/server.sh"]
