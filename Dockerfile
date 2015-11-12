@@ -3,7 +3,7 @@ FROM java:8
 MAINTAINER Mohammad Naghavi <mohamnag@gmail.com>
 
 # install orientdb
-ENV ORIENTDB_VERSION='2.1.5'
+ENV ORIENTDB_VERSION='2.0.15'
 ENV ORIENTDB_URL http://www.orientechnologies.com/download.php?email=unknown@unknown.com&file=orientdb-community-${ORIENTDB_VERSION}.tar.gz&os=linux
 ENV ORIENTDB_ROOT_PASSWORD changeme
 ENV ORIENTDB_HOME='/opt/orientdb'
