@@ -23,8 +23,6 @@ RUN mkdir -p ${ORIENTDB_HOME} \
     && rm -rf ${ORIENTDB_HOME}/databases/ \
     && mkdir /usr/local/log
 
-WORKDIR ${ORIENTDB_HOME}
-
 ADD service.sh ${ORIENTDB_HOME}/
 VOLUME ${ORIENTDB_HOME}/databases/
 
