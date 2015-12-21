@@ -3,9 +3,7 @@ This image runs OrientDB on trusted Java images directly from library. If you wa
 a clusterized setup on Amazon ECS, take a look at [other image](https://github.com/mohamnag/ecs-orientdb).
 
 ## Versions
-Currently following versions provided:
- - image tagged `2.0.15` runs OrientDB v2.0.15
- - image tagged `2.1.5` runs OrientDB v2.1.5
+Look at tags tab to see all the available images. 
 
 ## Variables
 Following environemnt variables shall be set for best result when you run the container:
