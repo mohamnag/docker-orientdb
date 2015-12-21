@@ -10,7 +10,7 @@ ENV ODB_NETWORK_LOCKTIMEOUT=30000
 ENV ODB_NETWORK_SOCKETTIMEOUT=30000
 
 # install orientdb
-ENV ORIENTDB_VERSION='2.1.6'
+ENV ORIENTDB_VERSION='2.1.8'
 ENV ORIENTDB_URL http://www.orientechnologies.com/download.php?email=unknown@unknown.com&file=orientdb-community-${ORIENTDB_VERSION}.tar.gz&os=linux
 ENV ORIENTDB_HOME='/opt/orientdb'
 
