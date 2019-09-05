@@ -1,6 +1,8 @@
 # orientdb
 FROM java:8
-LABEL "name"="Aranga<aranga.nanayakkara@gmail.com>"
+LABEL "maintainer"="Mohammad Naghavi <mohamnag@gmail.com>"
+LABEL "updated"="Aranga C. Nanayakkara <aranga.nanayakkara@gmail.com"
+LABEL "updated-date"="2019-09-05"
 
 ARG ORIENTDB_DOWNLOAD_SERVER
 
